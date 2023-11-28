@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap"
+      rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-1">
+        <div class="nav-1">
+          <img src="image/Logo.png" alt="Logo" class="nav-img" />
+          <div class="nav-menu">
+            <div class="nav-menu__items">
+              <div class="nav-menu__item">
+                <ul>
+                  <img src="image/icons/person.png" />
+                  <li>
+                    <button><span>log in</span></button>
+                  </li>
+                </ul>
+              </div>
+              <div class="nav-menu__item">
+                <ul>
+                  <img src="image/icons/cart.png" />
+                  <li><span>0</span></li>
+                </ul>
+              </div>
+              <button
+                class="btn-dop btn btn-primary"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight">
+                <img src="image/icons/ic-menu-navigation.png" />
+              </button>
+              <div
+                class="offcanvas offcanvas-end"
+                tabindex="-1"
+                id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas справа</h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Закрыть"></button>
+                </div>
+                <div class="offcanvas-body"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr width="100%" color="#D4D7E5" />
+    </header>
+    <main>
+      <div class="container-1 container">
+        <div class="main">
+          <div class="title-block__main">
+            <h1 class="title-block__main-subtitle">Your Food court at home</h1>
+            <div class="title-block__main-btn">
+              <button class="btn-main">
+                <span>Delivery</span><br />
+                <p>Order in</p>
+              </button>
+              <button class="btn-main">
+                <span>Takeout</span><br />
+                <p>Grab and go</p>
+              </button>
+            </div>
+          </div>
+          <img src="image/main-img.png" alt="main" />
+        </div>
+      </div>
+      <div class="delivery">
+        <div class="base">
+          <img src="image/component/component-1.png" />
+          <img src="image/component/Component-2.png" />
+          <img src="image/component/Component-3.png" />
+        </div>
+      </div>
+    </main>
+    <section>
+      <div class="container container-1">
+        <div class="section">
+          <div class="title__button">
+            <h2 class="title__button-subtitle">Restaurants</h2>
+            <button class="title__button-btn">show all</button>
+          </div>
+
+          <div class="slider single-item">
+            <div class="section-slider__item">
+              <div class="section-slider__img">
+                <img src="image/food/Photo-base2.png" alt="burger" />
+              </div>
+              <div><img src="image/food/burger.png" /></div>
+            </div>
+
+            <div class="section-slider__item">
+              <div class="section-slider__img">
+                <img src="image/food/Photo-base3.png" alt="il_paster" />
+              </div>
+              <div><img src="image/food/il_paster.png" /></div>
+            </div>
+
+            <div class="section-slider__item">
+              <div class="section-slider__img">
+                <img src="image/food/Photo-base4.png" alt="Believe" />
+              </div>
+              <div><img src="image/food/Believe.png" /></div>
+            </div>
+
+            <div class="section-slider__item">
+              <div class="section-slider__img">
+                <img src="image/food/Photo-base5.png" alt="vietnamese" />
+              </div>
+              <div><img src="image/food/vietnamese.png" /></div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="bc-grey">
+          <div class="container-1 container">
+                <div class="title-input">
+                    <div class="title-block">
+                        <div class="title-block__suptitle">
+                          Your nearest restaurants
+                        </div>
+                        <div class="title-block__subtitle">
+                          Each kitchen works with its own delivery area<br>
+                          to deliver food to you as soon as possible
+                        </div>                  
+                    </div>
+                    <div class="title-input__input-btn">
+                      <form action="#" class="input-form">
+                         <img src="image/icons/location.png">
+                         <input type="address" placeholder="Enter delivery address">                         
+                      </form>
+                      <button class="input-btn">send</button>
+                    </div>
+                </div>
+          </div>
+      </div>
+    </section>
+    <section>
+        <div class="container-1 container" >
+              <div class="title__button">
+                <h2 class="title__button-subtitle">Specialities</h2>
+                <button class="title__button-btn">show all</button>
+              </div>
+        </div>
+ 
+        
+
+          
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./jquery/jquery.js"></script>
+
+    <script src="slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
